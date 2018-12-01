@@ -14,11 +14,15 @@ Since there are too many genes to make sense of, I am focusing on the top genes 
 
 For each of these top genes, I am running the linear regression pipeline using data from all the 1300 cells and then I am also running the same pipeline for this target gene using data from only those clusters where this gene is a top gene. Each time the pipeline is run, some of the data points are held-out for testing using Root Mean Squared Error (RMSE). Then the idea is to compare the results from the 2 runs.
 
+For each run of the pipeline, I save the following results (these are only local computer and not on GitHub): l1_ratio and alpha values chosen for feature selection using ElasticNet; features selected by ElasticNet; features selected by OLS pseudo p-values; alpha used for ridge regression; RMSE and R^2 score for the training set; size of the test set; RMSE and R^2 for the test set.
+
 File: dim-reduction-and-clustering.ipynb
 
 Here I have tried to perform dimensionality reduction of the data to visualize the different 11 clusters in 2 dimensions. In one case I am using only t-SNE, which produced very bad results, probably because I tried to reduce ~9000 dimensions directly down to 2 using t-SNE. This approach was not able to separate out the spatial clusters at all in 2 dimensions. In another approach, I reduced the dimensions down first by PCA to about 50 and then reduced those down to 2 finally using t-SNE. This produced a much better result in terms of separating out the 11 spatial clusters in 2 dimensions.
 
 Even in the PCA + t-SNE approach, it seems like there are only about 2 major clusters in the data observing visually in 2-dimensions.
+
+You can see the output of the 2 approaches in the notebook.
 
 References:
 
