@@ -1,0 +1,21 @@
+The input data in this project is the dge_normalized.txt. It contains the gene expression for ~9000 genes as observed in ~1300 Drosophila Stage 6 embryo cells. This is single cell sequenced data.
+
+File: linear-regression.ipynb
+
+This python jupyter notebook contains a linear regression pipeline. Since there are too many genes to make sense of, I am focusing on the top genes in all the spatial clusters identified by [1]. These per-cluster top genes can be found on https://shiny.mdc-berlin.de/DVEX/ (under the ’t-SNE’ tab of the project).
+
+For each of these genes, I am running the linear regression pipeline using data from all the 1300 cells and then I am also running the same pipeline for this target gene using data from the cells belonging to the clusters where this gene is a top gene. Each time, some of the data points are held-out for testing using Mean Squared Error (MSE). Then the idea is to compare the results from the 2 runs.
+
+A brief description of the linear regression pipeline: first feature selection is performed using Elastic Net, this greatly reduces the number of feature genes from ~8999 down to usually 2-digits. Then using OLS pseudo p-values, another round of feature selection is performed. Then using the remaining features, a linear ridge regression model model is learnt for the target gene.
+
+Each cell belongs to one of the 11 clusters identified in [1]. The cell names have the ID of the cluster that they belong to appended to their names.
+
+File: dim-reduction-and-clustering.ipynb
+
+Here I have tried to perform dimensionality reduction of the data to visualize the different 11 clusters in 2 dimensions. In one case I am using only t-SNE, which produced very bad results, probably because I tried to reduce ~9000 dimensions directly down to 2 using t-SNE. This approach was not able to separate out the spatial clusters at all in 2 dimensions. In another approach, I reduced the dimensions down first by PCA to about 50 and then reduced those down to 2 finally using t-SNE. This produced a much better result in terms of separating out the 11 spatial clusters in 2 dimensions.
+
+Even in the PCA + t-SNE approach, it seems like there are only about 2 major clusters in the data observing visually in 2-dimensions.
+
+References:
+
+[1] Karaiskos N, Wahle P, Alles J, Boltengagen A, Ayoub S, Kipar C, Kocks C, Rajewsky N, Zinzen RP. The Drosophila embryo at single-cell transcriptome resolution. Science. 2017;358(6360):194–199. doi: 10.1126/science.aan3235.
