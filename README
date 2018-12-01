@@ -1,14 +1,18 @@
-The input data in this project is the dge_normalized.txt. It contains the gene expression for ~9000 genes as observed in ~1300 Drosophila Stage 6 embryo cells. This is single cell sequenced data.
+File: dge_normalized.txt
+
+This file contains the input data for this project. It contains the gene expression for ~9000 genes as observed in ~1300 Drosophila Stage 6 embryo cells. This data has been obtained by single cell RNA sequencing [1].
+
+File: cluster_top_genes.csv
+
+There are 11 spatial clusters identified by [1] in the 1300 cells that have sequenced. Each of these clusters has some genes that are differentially expressed in them. This file contains a list of the top 15 differentially expressed genes in each of the clusters. This data comes from [2], which is the project website for [1]. Each cell (described by the 9000-values-long gene-expression vector) in the input data belongs to one of the 11 clusters. The cell names have the ID of the cluster that they belong to appended to their names.
 
 File: linear-regression.ipynb
 
-This python jupyter notebook contains a linear regression pipeline. Since there are too many genes to make sense of, I am focusing on the top genes in all the spatial clusters identified by [1]. These per-cluster top genes can be found on https://shiny.mdc-berlin.de/DVEX/ (under the ’t-SNE’ tab of the project).
+This python jupyter notebook contains a linear regression pipeline. A brief description of the linear regression pipeline is as follows: first feature selection is performed using Elastic Net, this greatly reduces the number of feature genes from ~8999 down to usually 2-digits. Then using OLS pseudo p-values, another round of feature selection is performed. Then using the remaining features, a linear ridge regression model model is learnt for the target gene.
 
-For each of these genes, I am running the linear regression pipeline using data from all the 1300 cells and then I am also running the same pipeline for this target gene using data from the cells belonging to the clusters where this gene is a top gene. Each time, some of the data points are held-out for testing using Mean Squared Error (MSE). Then the idea is to compare the results from the 2 runs.
+Since there are too many genes to make sense of, I am focusing on the top genes in all the spatial clusters identified by [1]. These per-cluster top genes were obtained from the project website [2] of [1].
 
-A brief description of the linear regression pipeline: first feature selection is performed using Elastic Net, this greatly reduces the number of feature genes from ~8999 down to usually 2-digits. Then using OLS pseudo p-values, another round of feature selection is performed. Then using the remaining features, a linear ridge regression model model is learnt for the target gene.
-
-Each cell belongs to one of the 11 clusters identified in [1]. The cell names have the ID of the cluster that they belong to appended to their names.
+For each of these top genes, I am running the linear regression pipeline using data from all the 1300 cells and then I am also running the same pipeline for this target gene using data from only those clusters where this gene is a top gene. Each time the pipeline is run, some of the data points are held-out for testing using Root Mean Squared Error (RMSE). Then the idea is to compare the results from the 2 runs.
 
 File: dim-reduction-and-clustering.ipynb
 
@@ -19,3 +23,5 @@ Even in the PCA + t-SNE approach, it seems like there are only about 2 major clu
 References:
 
 [1] Karaiskos N, Wahle P, Alles J, Boltengagen A, Ayoub S, Kipar C, Kocks C, Rajewsky N, Zinzen RP. The Drosophila embryo at single-cell transcriptome resolution. Science. 2017;358(6360):194–199. doi: 10.1126/science.aan3235.
+
+[2] https://shiny.mdc-berlin.de/DVEX/ (the ’t-SNE’ tab of the project)
