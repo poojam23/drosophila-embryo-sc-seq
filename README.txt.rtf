@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 The input data in this project is the dge_normalized.txt. It contains the gene expression for ~9000 genes as observed in ~1300 Drosophila Stage 6 embryo cells. This is single cell sequenced data.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 File: linear-regression.ipynb\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 This python jupyter notebook contains a linear regression pipeline. Since there are too many genes to make sense of, I am focusing on the top genes in all the spatial clusters identified by [1]. These per-cluster top genes can be found on https://shiny.mdc-berlin.de/DVEX/ (under the \'92t-SNE\'92 tab of the project).\
+\
+For each of these genes, I am running the linear regression pipeline using data from all the 1300 cells and then I am also running the same pipeline for this target gene using data from the cells belonging to the clusters where this gene is a top gene. Each time, some of the data points are held-out for testing using Mean Squared Error (MSE). Then the idea is to compare the results from the 2 runs.\
+\
+A cell can belong to one of the 11 clusters identified in [1]. The cell names have the ID of the cluster that they belong to appended to their names.\
+\
+File: dim-reduction-and-clustering.ipynb\
+\
+Here I have tried to perform dimensionality reduction of the data to visualize the different 11 clusters in 2 dimensions. In one case I am using only t-SNE, which produced very bad results, probably because I tried to reduce ~9000 dimensions directly down to 2 using t-SNE. This approach was not able to separate out the spatial clusters at all in 2 dimensions. In another approach, I reduced the dimensions down first by PCA to about 50 and then reduced those down to 2 finally using t-SNE. This produced a much better result in terms of separating out the 11 spatial clusters in 2 dimensions.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab20\partightenfactor0
+\cf2 \cb3 \expnd0\expndtw0\kerning0
+References:\
+\
+[1] Karaiskos N, Wahle P, Alles J, Boltengagen A, Ayoub S, Kipar C, Kocks C, Rajewsky N, Zinzen RP. The Drosophila embryo at single-cell transcriptome resolution.\'a0Science.\'a02017;358(6360):194\'96199. doi: 10.1126/science.aan3235.}
