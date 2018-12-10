@@ -1,0 +1,12 @@
+l1_ratio:1
+alpha:0.0918039133876
+select_features_1:Alk,alphagamma-element:CR32865,Ance,Art1,asp,blanks,C15,Cdk8,CG10639,CG1104,CG12007,CG12129,CG12547,CG13653,CG14915,CG2021,CG3163,CG34383,CG42360,CG5346,CG7130,CG7556,CG8273,CG8435,CG9471,CG9853,CR45181,cta,dap,Doc1,Doc2,Doc3,dom,drm,Dyb,edl,egr,esc,esg,E(spl)m5-HLH,fand,feo,fkh,fog,h,HIP,HP5,kay,MED8,mirr,Mkp3,mtSSB,Mul1,net,not,nuf,odd,Pak,pdm2,peb,phyl,pod1,Rep,Sec13,SNCF,Snx3,trx,tsh,tup,wake,Z600,zen2,
+select_features_2:blanks,CG10639,CG1104,CG12007,CG12129,CG12547,CG13653,CG3163,CG34383,CG42360,CG5346,CG7556,CG8273,CG9853,CR45181,cta,dap,Doc2,Doc3,dom,Dyb,egr,esc,esg,E(spl)m5-HLH,feo,fog,h,MED8,mtSSB,not,nuf,odd,Pak,pdm2,peb,phyl,Rep,Snx3,trx,tsh,zen2,
+ridge_alpha:1.0
+rmse_train:0.752450786466
+r2_train:0.735180153245
+adj_r2_train:0.275998171945
+test_set_size:259
+rmse_test:0.801815642554
+r2_test:0.719725262938
+adj_r2_test:0.334772602602

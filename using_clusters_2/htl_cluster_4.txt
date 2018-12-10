@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.34496899489
+select_features_1:AdenoK,CG12581,CG13917,CG1486,CG15019,CG18549,CG18731,CG32138,CG42360,CG43394,CG4849,CG5013,CG7029,dlp,feo,FucTB,Gie,GstT4,HP5,Hsf,ImpL2,Mat89Ba,MED7,Mef2,mew,mri,mRpS33,msn,nub,pea,pico,Ptp61F,r2d2,Rcp,Rep,RhoGEF4,Rpt3,Rpt5,Ski6,smid,TBPH,Tdrd3,tsh,wntD,
+select_features_2:CG12581,CG32138,CG42360,CG4849,dlp,feo,FucTB,Gie,HP5,Hsf,mew,mri,mRpS33,pea,pico,Rep,RhoGEF4,Rpt5,Ski6,smid,Tdrd3,tsh,
+ridge_alpha:1.0
+rmse_train:0.936990001685
+r2_train:0.570384841934
+adj_r2_train:0.473372257499
+test_set_size:59
+rmse_test:1.05953254923
+r2_test:0.559690796663
+adj_r2_test:0.709387049821

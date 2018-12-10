@@ -1,0 +1,12 @@
+l1_ratio:0.99
+alpha:0.267854106818
+select_features_1:Ama,Atx-1,CG12420,CG14220,CG14286,CG1677,CG17829,CG3335,CG5039,CG6091,CG8121,CG8654,cv-2,D,dpp,eas,E(spl)m4-BFM,fend,foi,glu,gsb,homer,ind,MED27,mi,net,pnr,RhoGEF4,RPA3,Smurf,sog,SoxN,spd-2,stg,Sxl,ths,toc,Trs20,unc-119,yki,
+select_features_2:Atx-1,CG14286,CG1677,CG17829,CG3335,CG5039,CG6091,CG8121,cv-2,eas,foi,homer,ind,net,pnr,RPA3,Smurf,sog,SoxN,stg,Sxl,toc,Trs20,unc-119,yki,
+ridge_alpha:1.0
+rmse_train:1.19194636802
+r2_train:0.748053279017
+adj_r2_train:0.263482743006
+test_set_size:142
+rmse_test:1.18340666192
+r2_test:0.746200742671
+adj_r2_test:0.308497373132

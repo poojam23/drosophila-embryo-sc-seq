@@ -1,0 +1,12 @@
+l1_ratio:1
+alpha:0.184255539207
+select_features_1:Ama,ana1,AP-2mu,apt,Atx-1,barc,bib,blot,brat,bxd,cerv,CG10249,CG10732,CG12896,CG13366,CG14204,CG14478,CG15098,CG15456,CG15480,CG31694,CG32022,CG34224,CG34439,CG42342,CG45050,CG5888,CG7222,CG7518,CG8654,CG9328,CR43314,D,dpn,edl,Egfr,elav,E(Pc),esg,fj,ftz,GalNAc-T2,gt,gwl,GXIVsPLA2,Imp,Kr,l(1)sc,Lrt,mbt,MFS16,mRpS21,Ndae1,Nle,noc,noe,ox,pDsRed,pie,PIP4K,por,pros,Prp19,Prp3,Rgl,RhoGEF3,rpr,sna,SNCF,sog,TBPH,Ten-m,toc,Tollo,Tsp96F,tud,vn,vnd,zfh2,
+select_features_2:AP-2mu,apt,Atx-1,barc,bxd,cerv,CG10732,CG12896,CG14204,CG15098,CG15456,CG31694,CG32022,CG34224,CG45050,CG5888,CG7222,CR43314,dpn,Egfr,GalNAc-T2,gwl,GXIVsPLA2,Kr,MFS16,mRpS21,Nle,ox,pDsRed,PIP4K,por,Prp19,RhoGEF3,rpr,TBPH,toc,Tollo,vn,zfh2,
+ridge_alpha:1.0
+rmse_train:1.39713122197
+r2_train:0.433351471298
+adj_r2_train:0.588792108481
+test_set_size:259
+rmse_test:1.4060582053
+r2_test:0.405224576785
+adj_r2_test:0.700694334199

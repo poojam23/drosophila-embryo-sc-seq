@@ -1,0 +1,12 @@
+l1_ratio:1
+alpha:0.272815715878
+select_features_1:Ama,apt,Atx-1,beta-Spec,cerv,CG10249,CG12081,CG14204,CG15098,CG17683,CG31957,CG32022,CG42342,CG42762,CG45050,CG5191,CG5703,CG6236,CG7518,CG8320,CG8654,CG9328,chn,D,dpn,edl,Egfr,fend,GXIVsPLA2,I-2,ImpE2,Kr,Lrt,MFS16,mid,mRpL21,pDsRed,pie,Prp19,Rab6,siz,sna,SNCF,sog,TBPH,Ten-m,Tollo,Traf4,tsh,Vang,vn,zfh2,
+select_features_2:CG12081,CG14204,CG15098,CG17683,CG32022,CG45050,CG5703,CG6236,CG7518,CG8320,chn,edl,GXIVsPLA2,I-2,ImpE2,Kr,MFS16,mid,pDsRed,Prp19,Rab6,TBPH,Tollo,Traf4,Vang,vn,zfh2,
+ridge_alpha:1.0
+rmse_train:1.42381480532
+r2_train:0.487856462271
+adj_r2_train:0.53756242655
+test_set_size:142
+rmse_test:1.50226105962
+r2_test:0.441706048102
+adj_r2_test:0.690521466822

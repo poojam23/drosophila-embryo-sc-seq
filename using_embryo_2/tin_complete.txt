@@ -1,0 +1,12 @@
+l1_ratio:1
+alpha:0.187768743757
+select_features_1:5-HT2A,Act87E,Alh,Atf6,BobA,CadN,CG10479,CG11275,CG13465,CG14688,CG1486,CG16758,CG2051,CG3036,CG34224,CG4500,CG5002,CR45361,CrebA,Cyp310a1,D,DNaseII,edl,fd102C,ham,htl,Kr,Mef2,MESR3,Pka-C3,Ptr,puf,RapGAP1,run,salm,sog,SoxN,sprt,srp,stg,toc,Toll-6,tsh,twi,ventrally-expressed-protein-D,wntD,
+select_features_2:Act87E,Alh,Atf6,BobA,CG1486,CG2051,CG5002,CR45361,DNaseII,edl,fd102C,ham,Kr,Mef2,MESR3,Pka-C3,puf,RapGAP1,Toll-6,twi,ventrally-expressed-protein-D,wntD,
+ridge_alpha:1.0
+rmse_train:1.09335951039
+r2_train:0.699100967623
+adj_r2_train:0.307420981847
+test_set_size:259
+rmse_test:1.15844001582
+r2_test:0.675055306257
+adj_r2_test:0.355236148245

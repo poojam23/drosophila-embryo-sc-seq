@@ -1,0 +1,12 @@
+l1_ratio:0.7
+alpha:0.21980045472
+select_features_1:Ama,aos,apt,Atg1,bc10,betaTub97EF,Blimp-1,Blos3,brat,bxd,CG10176,CG10479,CG11007,CG11247,CG11596,CG11906,CG11966,CG12054,CG12134,CG12896,CG14215,CG14427,CG14915,CG17593,CG17652,CG2145,CG31855,CG34163,CG4221,CG42239,CG4554,CG7974,CG8297,CG8498,CG9669,comm,comm2,CR40469,CrebA,CSN6,CycK,dalao,emc,en,E(Pc),fs(2)ltoPP43,ftz,G9a,GAA1,h,hh,hk,hyd,iab-4,ImpL2,l(2)08717,LBR,MED7,mid,milt,Mipp1,mu2,net,noc,Nup154,oaf,odd,opa,pen-2,PIP4K,prd,Prx6005,pxb,Rab4,rad50,Rbm13,rept,Rpt6,run,slp1,slp2,sna,spo,sub,Syx8,Tim9a,Tollo,trn,tsh,Tsp26A,tutl,woc,Z600,hb,Kr,gt,
+select_features_2:aos,apt,Atg1,Blimp-1,brat,CG10479,CG11007,CG11247,CG12054,CG14215,CG17593,CG17652,CG2145,CG31855,CG42239,CG4554,comm,comm2,CR40469,CrebA,CSN6,CycK,en,E(Pc),fs(2)ltoPP43,ftz,GAA1,hh,hyd,ImpL2,l(2)08717,LBR,mid,Nup154,oaf,pen-2,prd,rept,slp1,slp2,Tollo,trn,Tsp26A,Z600,hb,Kr,gt,
+ridge_alpha:1.0
+rmse_train:1.3153059146
+r2_train:0.504338438724
+adj_r2_train:0.519192968731
+test_set_size:259
+rmse_test:1.29965504434
+r2_test:0.47858628205
+adj_r2_test:0.637558005835

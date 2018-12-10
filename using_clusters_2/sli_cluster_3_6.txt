@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.244165770741
+select_features_1:alpha-Spec,ASPP,blot,bocksbeutel,Btk29A,calypso,Cdep,CG10590,CG10777,CG11562,CG12007,CG1236,CG14073,CG14757,CG15480,CG15735,CG1737,CG17486,CG2691,CG3036,CG31957,CG32479,CG32772,CG34383,CG3803,CG42445,CG43342,CG43427,CG4511,CG4751,CG6712,CG8668,CG8677,CG9425,CG9636,Chd1,dally,dlp,Dnz1,Dok,Dscam1,Dscam4,Dtg,ec,E(Pc),e(y)3,grh,GstE1,GstS1,kat80,kune,l(1)G0222,l(3)psg2,lea,LRP1,mael,mam,melt,MRP,mRpL43,mura,ncd,Npc1a,PCID2,Pcmt,Piezo,pod1,Ptr,px,Rab35,RN-tre,S,sca,Skp2,spn-A,Sucb,Su(dx),tef,Ten-m,Tet,tinc,tko,Toll-6,Trim9,tup,tutl,Ubi-p5E,ush,veil,Vps25,wapl,wg,ZAP3,
+select_features_2:calypso,CG11562,CG12007,CG1236,CG14757,CG15735,CG1737,CG17486,CG3036,CG32772,CG42445,CG43342,CG43427,CG4511,CG4751,CG6712,CG9636,Dnz1,kat80,kune,mael,mRpL43,ncd,PCID2,Pcmt,px,S,Skp2,Sucb,tef,tko,Toll-6,Trim9,Ubi-p5E,veil,Vps25,wapl,
+ridge_alpha:1.0
+rmse_train:1.2371721944
+r2_train:0.531842211876
+adj_r2_train:0.502122176674
+test_set_size:136
+rmse_test:1.29037523982
+r2_test:0.432951689634
+adj_r2_test:0.781137978566

@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.192694713438
+select_features_1:aay,ac,Ama,aop,Atx-1,blot,brk,Btk29A,cactin,Caps,CG11454,CG11825,CG12896,CG12947,CG13001,CG1316,CG13993,CG14482,CG14646,CG15083,CG15480,CG16986,CG17202,CG2926,CG3036,CG33096,CG33169,CG4045,CG42358,CG42762,CG4287,CG5013,CG6028,CG6686,CG6833,CG7275,CG8191,CG9034,CG9776,CR14033,CR31044,CR44317,CR45181,D,Dhap-at,dm,DOR,Dsor1,eco,edl,endos,esg,E(spl)m5-HLH,E(var)3-9,fend,fh,flw,GalNAc-T2,Gbs-70E,Git,h,ImpL2,Irp-1A,Kr,l(1)G0289,l(1)sc,La,Letm1,lqf,Lrt,Mad,mael,MESR3,Moca-cyp,mRpL30,mRpS16,msn,Ndc1,Nmda1,Nup43,Nup44A,Nup50,Nup75,Ogg1,os,Papss,pDsRed,Plip,pnt,Prosap,Prp31,Pten,Rab19,RapGAP1,Rgl,Rh4,rho,RhoGEF4,rpr,sca,slp1,SMC2,SMC3,Smu1,sog,SoxN,Spc25,Stim,tan,ths,Tif-IA,tkv,trn,Ttc19,VhaM9.7-b,vn,vnd,Vps25,xit,
+select_features_2:ac,aop,Atx-1,brk,cactin,CG11825,CG12947,CG15083,CG15480,CG17202,CG42762,CG4287,CG5013,CG6686,CG6833,CG9776,CR31044,CR44317,D,Dhap-at,DOR,Dsor1,edl,esg,E(var)3-9,fend,fh,flw,GalNAc-T2,Gbs-70E,l(1)sc,lqf,Lrt,mael,Moca-cyp,mRpS16,msn,Ndc1,Nup43,Nup44A,Nup75,os,pDsRed,Plip,pnt,Prp31,RapGAP1,Rh4,RhoGEF4,SMC2,SMC3,Spc25,Stim,tkv,Ttc19,VhaM9.7-b,xit,
+ridge_alpha:1.0
+rmse_train:0.994607164534
+r2_train:0.700247988371
+adj_r2_train:0.337890102394
+test_set_size:126
+rmse_test:1.0672380736
+r2_test:0.717588175486
+adj_r2_test:0.519139383297

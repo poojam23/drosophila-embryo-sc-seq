@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.208666816252
+select_features_1:18w,Ama,Atg17,Atx-1,baz,brk,CG10011,CG10585,CG1227,CG14543,CG14812,CG14915,CG17841,CG18619,CG30349,CG31998,CG32758,CG32767,CG42232,CG42342,CG43085,CG5439,CG5516,CG6665,CG7239,CG7332,CG7546,CG9634,cic,CR42862,CR45361,CrebA,ctrip,cv-2,D,dpp,Egfr,egg,esg,E(spl)m4-BFM,ftz,Fur1,grp,Hmt4-20,Hsc70-3,htl,Kap-alpha1,kdn,klar,Mad,Mcm10,MED6,msd1,mtd,myo,MYPT-75D,nej,net,Nhe2,opa,pall,Papss,pcx,pDsRed,pico,PlexA,Psa,pum,RpII215,run,sad,sna,SNCF,sog,SoxN,Spase22-23,SsRbeta,stg,stumps,Su(z)12,tan,Ten-m,TfIIEbeta,Tre1,trx,tsh,tutl,VhaAC39-1,
+select_features_2:CG1227,CG14812,CG14915,CG17841,CG30349,CG42342,CG5439,CG6665,CG7239,CG7546,CrebA,cv-2,dpp,Egfr,egg,ftz,grp,Hsc70-3,Kap-alpha1,Mcm10,myo,Papss,Psa,pum,sad,sog,SoxN,Spase22-23,SsRbeta,Su(z)12,tan,TfIIEbeta,Tre1,tsh,VhaAC39-1,
+ridge_alpha:1.0
+rmse_train:1.4167885654
+r2_train:0.430017029439
+adj_r2_train:0.589892555361
+test_set_size:259
+rmse_test:1.4948228194
+r2_test:0.418258929125
+adj_r2_test:0.673045723255

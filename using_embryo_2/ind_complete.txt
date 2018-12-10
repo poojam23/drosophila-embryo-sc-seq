@@ -1,0 +1,12 @@
+l1_ratio:0.7
+alpha:0.187251077049
+select_features_1:aay,Ama,aop,Atx-1,blot,brk,Bruce,Btk29A,CG1074,CG11825,CG12091,CG14646,CG15083,CG15480,CG17328,CG30089,CG34224,CG42762,CG5002,CG6833,CG8132,comm2,CR14033,CR31044,CR44043,CR44317,CR45181,CR45559,CSN3,D,dm,DOR,ebd2,edl,endos,esg,E(spl)m5-HLH,fend,Gbs-70E,Git,gsb,GstE13,h,ImpL2,Kr,l(1)G0289,l(1)sc,l(2)08717,Lrt,Mad,MESR3,Moca-cyp,mRpL30,mRpL46,Ndc1,Nmda1,Nup75,pDsRed,Prp31,ptc,Pten,RapGAP1,retn,rho,rpr,sca,slp1,SMC3,SoxN,ths,Tif-IA,tkv,trn,Trs31,vnd,Wdr82,Wwox,xit,
+select_features_2:aay,Ama,aop,Atx-1,blot,brk,Bruce,Btk29A,CG11825,CG12091,CG15083,CG15480,CG17328,CG30089,CG42762,CG6833,CG8132,comm2,CR14033,CR31044,CR44043,CR44317,CR45181,CSN3,D,DOR,ebd2,edl,endos,esg,E(spl)m5-HLH,Gbs-70E,Git,GstE13,h,Kr,l(1)G0289,l(1)sc,l(2)08717,Lrt,Mad,MESR3,Moca-cyp,mRpL30,mRpL46,Ndc1,Nmda1,Nup75,pDsRed,Prp31,ptc,rpr,SMC3,ths,Tif-IA,tkv,Trs31,vnd,Wdr82,Wwox,xit,
+ridge_alpha:1.0
+rmse_train:0.945645675234
+r2_train:0.545688348264
+adj_r2_train:0.482706129969
+test_set_size:259
+rmse_test:1.15053911158
+r2_test:0.419710431142
+adj_r2_test:0.75997314094

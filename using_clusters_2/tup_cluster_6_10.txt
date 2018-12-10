@@ -1,0 +1,12 @@
+l1_ratio:0.95
+alpha:0.3522664181
+select_features_1:Ama,CG10479,CG11125,CG13653,CG3476,CG45263,CG7971,hbs,hth,Madm,Max,mirr,Ns2,Patr-1,slp1,toc,wdb,
+select_features_2:Ama,CG11125,CG13653,CG3476,CG45263,CG7971,Madm,Ns2,slp1,toc,
+ridge_alpha:1.0
+rmse_train:0.449298733167
+r2_train:0.925020054209
+adj_r2_train:0.0896818959467
+test_set_size:15
+rmse_test:0.580273658173
+r2_test:0.90813725957
+adj_r2_test:0.321519591504

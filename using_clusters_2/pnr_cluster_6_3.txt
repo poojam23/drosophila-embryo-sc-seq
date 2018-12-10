@@ -1,0 +1,12 @@
+l1_ratio:0.95
+alpha:0.203582589247
+select_features_1:alphagamma-element:CR32865,Antp,aop,Atg101,blot,brk,Btk29A,btsz,CG1074,CG12420,CG12948,CG13217,CG14427,CG15107,CG15236,CG15536,CG16758,CG17168,CG18190,CG32147,CG32202,CG32280,CG34224,CG4500,CG45263,CG5004,CG8031,CG8441,CR43432,CR44317,crim,cv-2,dgt2,dib,Dll,Doc1,dpp,dre4,Elba2,emc,enc,fra,ftz,GCC88,halo,l(3)07882,Mcm10,mRpS26,mtd,net,nuf,ovo,pen-2,phm,pico,Pka-C3,Poc1,prd,Ptp99A,Pym,retn,rl,SoxN,sro,srp,Sur-8,Thor,trsn,tsg,tsh,yellow-e3,Z600,
+select_features_2:alphagamma-element:CR32865,Antp,Atg101,blot,brk,CG13217,CG16758,CG17168,CG45263,CG5004,CG8031,CG8441,crim,Dll,ftz,halo,l(3)07882,Mcm10,net,ovo,phm,pico,Poc1,Ptp99A,rl,SoxN,srp,Thor,tsg,
+ridge_alpha:1.0
+rmse_train:1.03143246189
+r2_train:0.801922652427
+adj_r2_train:0.209166619927
+test_set_size:136
+rmse_test:0.9977251301
+r2_test:0.802215870334
+adj_r2_test:0.251894882122

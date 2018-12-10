@@ -1,0 +1,12 @@
+l1_ratio:0.1
+alpha:1.69872989501
+select_features_1:sog,
+select_features_2:sog,
+ridge_alpha:1.0
+rmse_train:0.721775428172
+r2_train:0.0101761168633
+adj_r2_train:0.990779311595
+test_set_size:259
+rmse_test:0.776101484119
+r2_test:-0.0109184791878
+adj_r2_test:1.01485201413

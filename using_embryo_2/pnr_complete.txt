@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.144273713091
+select_features_1:Alk,Antp,aop,be,blot,brk,Btk29A,Cdep,CG10176,CG12420,CG13217,CG13917,CG14427,CG15536,CG16758,CG1902,CG3036,CG32147,CG34224,CG34371,CG43184,CG4500,CG45263,CG5004,CG5131,CG7154,CG8031,CG9849,cmet,Coop,cpa,CR43432,CR44317,cv-2,dib,disco,Dll,Doc1,dpp,eIF4G2,Elba2,emc,esg,ftz,GCC88,gsb,halo,hbs,ImpE2,Indy,kay,l(2)08717,l(3)07882,Mcm10,Mes-4,MESR3,mirr,mtd,mthl1,Ndae1,net,Nplp2,nuf,opa,ovo,pen-2,phm,Pka-C3,retn,rl,salm,sca,SoxN,sro,srp,TfIIEalpha,Thor,tin,tkv,trsn,tsg,tsh,Ubx,Z600,
+select_features_2:Alk,Antp,blot,brk,CG13217,CG13917,CG32147,CG34224,CG34371,CG45263,CG5004,CG5131,CG7154,CG8031,CG9849,CR44317,cv-2,dib,disco,Dll,esg,halo,ImpE2,Mcm10,MESR3,mthl1,net,Nplp2,opa,ovo,pen-2,salm,SoxN,srp,TfIIEalpha,Thor,tin,tsg,tsh,Z600,
+ridge_alpha:1.0
+rmse_train:0.968279305923
+r2_train:0.749890399206
+adj_r2_train:0.260144088289
+test_set_size:259
+rmse_test:0.953067089973
+r2_test:0.7430217827
+adj_r2_test:0.304130183777

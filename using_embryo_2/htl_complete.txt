@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.219707062362
+select_features_1:CadN,CG12581,CG14427,CG3036,CG34224,CG34371,CG4500,cnn,CR45361,Cyp310a1,E(spl)m5-HLH,E(spl)m7-HLH,fkh,if,ImpE2,knrl,Mef2,Mes2,mew,mirr,net,NetA,NetB,pigs,rho,sna,sprt,stumps,tin,tkv,twi,wntD,zfh1,
+select_features_2:CG12581,CG34224,CR45361,Cyp310a1,fkh,ImpE2,knrl,Mef2,Mes2,mew,net,NetA,NetB,rho,sna,sprt,tin,wntD,
+ridge_alpha:1.0
+rmse_train:1.01941243017
+r2_train:0.72471150675
+adj_r2_train:0.280151292935
+test_set_size:259
+rmse_test:1.0347684226
+r2_test:0.73662102988
+adj_r2_test:0.283132392879

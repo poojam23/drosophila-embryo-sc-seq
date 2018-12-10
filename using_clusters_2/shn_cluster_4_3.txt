@@ -1,0 +1,12 @@
+l1_ratio:0.95
+alpha:0.248736578459
+select_features_1:18w,Aatf,Acon,Ama,Atg17,Atx-1,baz,brk,CG10011,CG12007,CG13185,CG15877,CG16758,CG30349,CG32758,CG32767,CG42232,CG4500,CG7239,CG7546,CG9634,CR42862,cv-2,D,Dd,Den1,dm,Egfr,ftz,Fur1,Grip71,h,Hmt4-20,ImpL2,jing,Kap-alpha1,kdn,MESR3,msn,mud,nej,net,Nhe2,pcx,pDsRed,pico,PlexB,pum,Sir2,sna,SNCF,sog,SoxN,stg,Su(z)12,tan,Ten-m,trx,tutl,
+select_features_2:Atx-1,CG12007,CG15877,CG30349,CG7239,CR42862,cv-2,Den1,ftz,Grip71,h,ImpL2,jing,Kap-alpha1,MESR3,pDsRed,pum,Sir2,sog,Su(z)12,tan,tutl,
+ridge_alpha:1.0
+rmse_train:1.40857409363
+r2_train:0.455861760661
+adj_r2_train:0.560741625283
+test_set_size:186
+rmse_test:1.5539021846
+r2_test:0.273850652378
+adj_r2_test:0.824157235031

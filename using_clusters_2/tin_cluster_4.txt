@@ -1,0 +1,12 @@
+l1_ratio:0.5
+alpha:0.835438681989
+select_features_1:Ac78C,Act87E,aos,CG10479,CG11275,CG1486,comm,CR43617,dikar,elav,lt,mRpL46,Pp2C1,Psf3,Rrp40,salm,SoxN,stumps,tsh,
+select_features_2:Ac78C,CG10479,CG11275,CG1486,comm,CR43617,lt,mRpL46,Pp2C1,Psf3,Rrp40,SoxN,stumps,tsh,
+ridge_alpha:1.0
+rmse_train:1.11560356238
+r2_train:0.426918817927
+adj_r2_train:0.608898755952
+test_set_size:59
+rmse_test:1.06475975712
+r2_test:0.434197885982
+adj_r2_test:0.745830059387

@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.25994387803
+select_features_1:ASPP,bib,blot,bnl,Cad87A,Cdep,CG10590,CG14446,CG15480,CG17556,CG1882,CG3036,CG31998,CG34224,CG34383,CG43427,CG4751,CG6712,CG7884,CG8677,CG9425,Chd1,cno,CR42862,CR43432,cv-2,dally,Desat1,Dscam1,east,ec,emb,Eph,e(y)3,Gp150,GstE1,hipk,hth,ImpL2,jbug,lic,mew,MRP,mtd,N,osa,Piezo,ptc,Ptr,px,sca,sdt,Sema-5c,shg,sna,sog,Su(dx),tef,Ten-m,Tet,tinc,Toll-6,tup,tutl,twi,ush,wapl,wb,z,ZAP3,
+select_features_2:CG10590,CG15480,CG1882,CG34224,CG4751,CG6712,Desat1,emb,GstE1,lic,sog,Su(dx),tef,Tet,Toll-6,wapl,z,
+ridge_alpha:1.0
+rmse_train:1.57051367603
+r2_train:0.356361590509
+adj_r2_train:0.654365716316
+test_set_size:259
+rmse_test:1.58625214168
+r2_test:0.296253077014
+adj_r2_test:0.753388822118

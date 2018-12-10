@@ -1,0 +1,12 @@
+l1_ratio:0.95
+alpha:0.259697203646
+select_features_1:5-HT2A,abd-A,aop,brk,bxd,CG34224,CG3502,CG4500,CG5191,Coop,Doc1,drl,gsb,ImpL2,kek1,Meltrin,mid,mthl1,net,oc,Pino,pyr,run,sca,siz,SNCF,sog,SoxN,Stat92E,Trim9,tsh,twi,wb,
+select_features_2:brk,bxd,CG4500,Doc1,drl,gsb,ImpL2,kek1,Meltrin,mthl1,net,oc,pyr,run,siz,SNCF,sog,SoxN,Stat92E,Trim9,tsh,wb,
+ridge_alpha:1.0
+rmse_train:1.32618665462
+r2_train:0.750367566832
+adj_r2_train:0.255043185414
+test_set_size:259
+rmse_test:1.44336258995
+r2_test:0.712886318157
+adj_r2_test:0.313878516591

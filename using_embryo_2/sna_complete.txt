@@ -1,0 +1,12 @@
+l1_ratio:0.95
+alpha:0.150214734977
+select_features_1:Act87E,ASPP,be,bnl,Brd,CG10176,CG10874,CG11275,CG12177,CG16758,CG17233,CG17593,CG3036,CG3436,CG34383,CG4500,CG7352,cnn,CR43314,Cyp310a1,danr,dnc,dpp,E(spl)m4-BFM,E(spl)m5-HLH,fra,Gdh,gsb,htl,if,Ilp4,Imp,Mes2,mRpL18,mRpS18A,net,neur,opa,Opa1,pico,pnt,Rab14,sdt,slp1,stg,Tom,trbl,twi,ventrally-expressed-protein-D,vnd,wntD,zfh1,
+select_features_2:be,bnl,CG10176,CG10874,CG17233,CG17593,CG3036,CG3436,CG34383,CG7352,CR43314,dnc,Gdh,gsb,Imp,mRpL18,mRpS18A,net,neur,opa,Opa1,pnt,Rab14,stg,Tom,twi,ventrally-expressed-protein-D,vnd,
+ridge_alpha:1.0
+rmse_train:0.976323990718
+r2_train:0.8662553595
+adj_r2_train:0.137456087412
+test_set_size:259
+rmse_test:1.14752068397
+r2_test:0.785413429222
+adj_r2_test:0.240710153308

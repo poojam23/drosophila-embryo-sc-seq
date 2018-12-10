@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.318771429706
+select_features_1:Act87E,CG12177,CG13919,CG31950,CG32982,CG42342,CG5355,CG5869,cic,dalao,dan,dock,dpp,Ephrin,fj,fkh,if,l(2)not,Moe,net,phm,sdt,shn,Srp54k,tkv,tsg,tsh,twi,wmd,wntD,
+select_features_2:CG12177,CG13919,CG31950,CG5355,CG5869,cic,dalao,dock,dpp,l(2)not,Moe,phm,Srp54k,tsg,wntD,
+ridge_alpha:1.0
+rmse_train:0.822992897089
+r2_train:0.52280597002
+adj_r2_train:0.504514298872
+test_set_size:69
+rmse_test:1.18239114424
+r2_test:0.5282932641
+adj_r2_test:0.605208642286

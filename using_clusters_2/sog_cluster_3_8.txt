@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.340037108533
+select_features_1:Antp,Atx-1,bnl,brk,Cdk2,CG10268,CG12171,CG16974,CG4022,cv-2,D,E(spl)m7-HLH,fend,Idgf4,net,pDsRed,phm,pnt,rho,S,sca,SoxN,ths,Tollo,Trim9,U4-U6-60K,uif,vn,
+select_features_2:Antp,Atx-1,bnl,brk,Cdk2,CG10268,CG12171,CG16974,CG4022,cv-2,Idgf4,pDsRed,phm,rho,sca,SoxN,Trim9,U4-U6-60K,uif,
+ridge_alpha:1.0
+rmse_train:1.34760461836
+r2_train:0.821901200195
+adj_r2_train:0.184376865105
+test_set_size:139
+rmse_test:1.35666836377
+r2_test:0.805605184852
+adj_r2_test:0.225432642777

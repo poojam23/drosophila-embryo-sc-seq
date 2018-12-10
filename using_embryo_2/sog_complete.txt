@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.283147849126
+select_features_1:Ama,Ance,Antp,Atx-1,brk,Cfp1,CG12171,CG12213,CG1738,CG1902,CG32138,CG34224,CG43184,CG5708,CG7785,cic,CR43432,cv-2,Cyt-b5,D,Dl,dpp,Dscam1,Egfr,E(spl)m7-HLH,E(var)3-9,fend,kek1,l(2)08717,metl,net,pDsRed,phm,pros,Ptr,RfC4,S,sca,Sema-1b,sli,SoxN,ths,Tollo,Trim9,trn,vn,
+select_features_2:Ama,Ance,Atx-1,brk,Cfp1,CG12213,CG1738,CG1902,CG32138,CG5708,cic,CR43432,cv-2,Cyt-b5,Dl,dpp,Egfr,E(spl)m7-HLH,E(var)3-9,l(2)08717,metl,pDsRed,phm,pros,Ptr,RfC4,S,sca,SoxN,Trim9,trn,vn,
+ridge_alpha:1.0
+rmse_train:1.45746861305
+r2_train:0.755111242564
+adj_r2_train:0.252686210409
+test_set_size:259
+rmse_test:1.50773792861
+r2_test:0.747525383834
+adj_r2_test:0.288223234384

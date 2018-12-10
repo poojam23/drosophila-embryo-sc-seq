@@ -1,0 +1,12 @@
+l1_ratio:0.9
+alpha:0.124842728173
+select_features_1:18w,Aats-phe,Arl4,Atu,Atx-1,baz,bbg,blot,brk,cact,CG11123,CG13625,CG1440,CG1542,CG17734,CG2100,CG2162,CG31156,CG32772,CG5862,CG8121,CG8147,CG9330,CG9425,cic,Cnx99A,danr,dikar,Eaf6,edl,Ent1,E(spl)m7-HLH,h,Hop,Ilp4,ImpE2,ind,l(1)sc,ltl,mle,Mob3,mRpL45,Ndae1,net,Nipsnap,Nmda1,Nsf2,NUCB1,ox,pDsRed,phyl,pnt,rho,Rpn8,S,slp1,sna,sog,SoxN,srp,Tango5,toc,Tollo,uif,vn,Zasp52,
+select_features_2:18w,Aats-phe,Arl4,Atu,Atx-1,baz,bbg,cact,CG11123,CG13625,CG1440,CG1542,CG17734,CG2100,CG31156,CG32772,CG9330,cic,Cnx99A,dikar,Eaf6,Ent1,E(spl)m7-HLH,Hop,Ilp4,ImpE2,ind,l(1)sc,Mob3,net,Nipsnap,Nmda1,Nsf2,ox,pDsRed,rho,Rpn8,slp1,sna,srp,Tango5,toc,Tollo,uif,vn,Zasp52,
+ridge_alpha:1.0
+rmse_train:0.852065902151
+r2_train:0.648077590162
+adj_r2_train:0.36825785974
+test_set_size:259
+rmse_test:0.906893023137
+r2_test:0.525161766647
+adj_r2_test:0.577869170778
